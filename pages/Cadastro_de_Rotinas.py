@@ -75,7 +75,7 @@ if not st.session_state.cadastro_realizado:
             df_log.to_excel(path_arquivo, index=False, engine="openpyxl")
 
         # Atualiza JSON
-        json_file = r"C:\Users\dgsou\Desktop\GITHUB\DADOS\PROJETOS\cmmd\dados\dados_rotinas.json"
+        json_file = r"/workspaces/cmmdcenter/dados/dados_rotinas.json"
         if os.path.exists(json_file):
             try:
                 with open(json_file, "r") as file:
