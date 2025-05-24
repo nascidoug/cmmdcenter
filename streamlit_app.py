@@ -21,7 +21,7 @@ st.title("📊 Página Principal - Command Center")
 current_dir = os.path.dirname(__file__)  # Caminho onde o script está
 file_path = os.path.join(current_dir, "PROJETOS", "dados.xlsx")
 # json_path = "cmmdcenter/dados/dados_rotinas.json"
-data_loader = DataLoader(json_path)
+data_loader = DataLoader(file_path)
 rotinas = data_loader.rotinas
 
 #Condição que define o que será carregado na página:
