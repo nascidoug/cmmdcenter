@@ -1,0 +1,245 @@
+[
+    {
+        "Nome da Rotina": "Validacao_Credito_PF",
+        "Frequencia": "Diario",
+        "Analista Responsavel": "Camila Nogueira",
+        "Email Analista Responsavel": "camila.nogueira@bancox.com",
+        "Coordenacao": "Analise PF",
+        "Gerencia": "Analise de Credito",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Validacao_Credito_PF_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Aprovacao_Credito_PJ",
+        "Frequencia": "Semanal",
+        "Analista Responsavel": "Lucas Martins",
+        "Email Analista Responsavel": "lucas.martins@bancox.com",
+        "Coordenacao": "Analise PJ",
+        "Gerencia": "Analise de Credito",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Aprovacao_Credito_PJ_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Revisao_de_Score_Interno",
+        "Frequencia": "Mensal",
+        "Analista Responsavel": "Mariana Souza",
+        "Email Analista Responsavel": "mariana.souza@bancox.com",
+        "Coordenacao": "Score & Risco",
+        "Gerencia": "Modelagem de Risco",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Revisao_de_Score_Interno_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Atualizacao_Modelos_Preditivos",
+        "Frequencia": "Mensal",
+        "Analista Responsavel": "Bruno Vasconcelos",
+        "Email Analista Responsavel": "bruno.vasconcelos@bancox.com",
+        "Coordenacao": "Performance de Modelos",
+        "Gerencia": "Modelagem de Risco",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Atualizacao_Modelos_Preditivos_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Analise_Fraudes_Solicitacao_PF",
+        "Frequencia": "Diario",
+        "Analista Responsavel": "Aline Tavares",
+        "Email Analista Responsavel": "aline.tavares@bancox.com",
+        "Coordenacao": "Fraude PF",
+        "Gerencia": "Prevencao a Fraude",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Analise_Fraudes_Solicitacao_PF_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Alertas_Suspeitos",
+        "Frequencia": "Semanal",
+        "Analista Responsavel": "Felipe Prado",
+        "Email Analista Responsavel": "felipe.prado@bancox.com",
+        "Coordenacao": "Inteligencia de Fraudes",
+        "Gerencia": "Prevencao a Fraude",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Alertas_Suspeitos_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Controle_Garantias_Contratos",
+        "Frequencia": "Quinzenal",
+        "Analista Responsavel": "Priscila Moreira",
+        "Email Analista Responsavel": "priscila.moreira@bancox.com",
+        "Coordenacao": "Contratos & Garantias",
+        "Gerencia": "Credito Operacional",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Controle_Garantias_Contratos_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Auditoria_de_Contratos_de_Emprestimo",
+        "Frequencia": "Mensal",
+        "Analista Responsavel": "Joao Pedro Reis",
+        "Email Analista Responsavel": "joao.reis@bancox.com",
+        "Coordenacao": "Contratos & Garantias",
+        "Gerencia": "Credito Operacional",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Auditoria_de_Contratos_de_Emprestimo_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Monitoramento_Carteira_Ativa_PJ",
+        "Frequencia": "Diario",
+        "Analista Responsavel": "Tatiana Lima",
+        "Email Analista Responsavel": "tatiana.lima@bancox.com",
+        "Coordenacao": "Monitoramento de Carteiras",
+        "Gerencia": "Credito Operacional",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Monitoramento_Carteira_Ativa_PJ_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Indicadores_Carteira_PF",
+        "Frequencia": "Semanal",
+        "Analista Responsavel": "Rodrigo Castro",
+        "Email Analista Responsavel": "rodrigo.castro@bancox.com",
+        "Coordenacao": "Monitoramento de Carteiras",
+        "Gerencia": "Credito Operacional",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Indicadores_Carteira_PF_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Exportacao_de_Dados_BI",
+        "Frequencia": "Mensal",
+        "Analista Responsavel": "Beatriz Fernandes",
+        "Email Analista Responsavel": "beatriz.fernandes@bancox.com",
+        "Coordenacao": "Indicadores & BI",
+        "Gerencia": "Planejamento de Credito",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Exportacao_de_Dados_BI_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Relatorio_Estrategico_Credito",
+        "Frequencia": "Mensal",
+        "Analista Responsavel": "Marcelo Barros",
+        "Email Analista Responsavel": "marcelo.barros@bancox.com",
+        "Coordenacao": "Indicadores & BI",
+        "Gerencia": "Planejamento de Credito",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Relatorio_Estrategico_Credito_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Gestao_Qualidade_Dados",
+        "Frequencia": "Mensal",
+        "Analista Responsavel": "Vanessa Torres",
+        "Email Analista Responsavel": "vanessa.torres@bancox.com",
+        "Coordenacao": "Governanca de Dados",
+        "Gerencia": "Planejamento de Credito",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Gestao_Qualidade_Dados_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Atualizacao_Base_Historica",
+        "Frequencia": "Semanal",
+        "Analista Responsavel": "Igor Silva",
+        "Email Analista Responsavel": "igor.silva@bancox.com",
+        "Coordenacao": "Governanca de Dados",
+        "Gerencia": "Planejamento de Credito",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Atualizacao_Base_Historica_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Simulacao_Credito_PF",
+        "Frequencia": "Diario",
+        "Analista Responsavel": "Larissa Ramos",
+        "Email Analista Responsavel": "larissa.ramos@bancox.com",
+        "Coordenacao": "Analise PF",
+        "Gerencia": "Analise de Credito",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Simulacao_Credito_PF_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Reanalise_Credito_PJ_Vencido",
+        "Frequencia": "Semanal",
+        "Analista Responsavel": "Daniel Nunes",
+        "Email Analista Responsavel": "daniel.nunes@bancox.com",
+        "Coordenacao": "Analise PJ",
+        "Gerencia": "Analise de Credito",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Reanalise_Credito_PJ_Vencido_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Revisao_Modelos_de_Risco",
+        "Frequencia": "Mensal",
+        "Analista Responsavel": "Juliana Macedo",
+        "Email Analista Responsavel": "juliana.macedo@bancox.com",
+        "Coordenacao": "Performance de Modelos",
+        "Gerencia": "Modelagem de Risco",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Revisao_Modelos_de_Risco_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Validacao_Score_Externo",
+        "Frequencia": "Mensal",
+        "Analista Responsavel": "Thiago Neves",
+        "Email Analista Responsavel": "thiago.neves@bancox.com",
+        "Coordenacao": "Score & Risco",
+        "Gerencia": "Modelagem de Risco",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Validacao_Score_Externo_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Auditoria_Incidentes_Fraude",
+        "Frequencia": "Mensal",
+        "Analista Responsavel": "Patricia Goncalves",
+        "Email Analista Responsavel": "patricia.gon\u00e7alves@bancox.com",
+        "Coordenacao": "Inteligencia de Fraudes",
+        "Gerencia": "Prevencao a Fraude",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Auditoria_Incidentes_Fraude_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Monitoramento_Proativo_PF",
+        "Frequencia": "Diario",
+        "Analista Responsavel": "Gustavo Ferreira",
+        "Email Analista Responsavel": "gustavo.ferreira@bancox.com",
+        "Coordenacao": "Fraude PF",
+        "Gerencia": "Prevencao a Fraude",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Monitoramento_Proativo_PF_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Analise_Reprovacoes_PJ",
+        "Frequencia": "Semanal",
+        "Analista Responsavel": "Ana Paula Silveira",
+        "Email Analista Responsavel": "ana.silveira@bancox.com",
+        "Coordenacao": "Analise PJ",
+        "Gerencia": "Analise de Credito",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Analise_Reprovacoes_PJ_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Gestao_Prazos_Garantias",
+        "Frequencia": "Quinzenal",
+        "Analista Responsavel": "Leandro Cunha",
+        "Email Analista Responsavel": "leandro.cunha@bancox.com",
+        "Coordenacao": "Contratos & Garantias",
+        "Gerencia": "Credito Operacional",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Gestao_Prazos_Garantias_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Painel_Indicadores",
+        "Frequencia": "Semanal",
+        "Analista Responsavel": "Renata Lopes",
+        "Email Analista Responsavel": "renata.lopes@bancox.com",
+        "Coordenacao": "Indicadores & BI",
+        "Gerencia": "Planejamento de Credito",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Painel_Indicadores_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Limpeza_Dados_Historico",
+        "Frequencia": "Mensal",
+        "Analista Responsavel": "Paulo Santana",
+        "Email Analista Responsavel": "paulo.santana@bancox.com",
+        "Coordenacao": "Governanca de Dados",
+        "Gerencia": "Planejamento de Credito",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Limpeza_Dados_Historico_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Dashboard_Score",
+        "Frequencia": "Diario",
+        "Analista Responsavel": "Cristina Leal",
+        "Email Analista Responsavel": "cristina.leal@bancox.com",
+        "Coordenacao": "Score & Risco",
+        "Gerencia": "Modelagem de Risco",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Dashboard_Score_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Inconsistencia_PH_HW",
+        "Frequencia": "Mensal",
+        "Analista Responsavel": "Douglas Nascimento Sousa",
+        "Email Analista Responsavel": "douglas.sousa@gmail.com",
+        "Coordenacao": "Score & Risco",
+        "Gerencia": "Credito Operacional",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\dados\\pages\\..\\logs\\Inconsistencia_PH_HW_log.xlsx"
+    },
+    {
+        "Nome da Rotina": "Reaverbacao_em_Lote_INSS",
+        "Frequencia": "Semanal",
+        "Analista Responsavel": "Douglas Nascimento Sousa",
+        "Email Analista Responsavel": "douglas.sousa@gmail.com",
+        "Coordenacao": "Fraude PF",
+        "Gerencia": "Prevencao a Fraude",
+        "Path": "C:\\Users\\dgsou\\Desktop\\GITHUB\\DADOS\\PROJETOS\\cmmd\\pages\\..\\dados\\logs\\Reaverbacao_em_Lote_INSS_log.xlsx"
+    }
+]

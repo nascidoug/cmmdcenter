@@ -1,1 +1,9 @@
 streamlit
+base64
+pandas 
+json
+os
+unicodedata
+datetime 
+numpy
+plotly
