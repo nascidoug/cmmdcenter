@@ -1,8 +1,5 @@
 streamlit
 pandas 
-json
-os
 unicodedata
-datetime 
 numpy
 plotly
