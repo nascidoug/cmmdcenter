@@ -5,14 +5,14 @@
 
 
 import streamlit as st
-from streamlit_autorefresh import st_autorefresh
+# from streamlit_autorefresh import st_autorefresh
 from data_loader import DataLoader
 from utils import DataProcessor
 from renderer import Renderer
 
 #Define o layout da tela (largura total) e a frequência de atualização da página (6000milisegundos = 6 segundos)
 st.set_page_config(layout="wide")
-st_autorefresh(interval=6000, limit=None, key="autorefresh")
+# st_autorefresh(interval=6000, limit=None, key="autorefresh")
 
 st.title("📊 Página Principal - Command Center")
 
