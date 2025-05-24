@@ -17,7 +17,7 @@ st.set_page_config(layout="wide")
 st.title("📊 Página Principal - Command Center")
 
 #Define um arquivo para um arquivo json (cadastro de rotinas) e executa o carregamento dos dados a partir da classe DataLoader
-json_path = "/workspaces/cmmdcenter/dados/dados_rotinas.json"
+json_path = "cmmdcenter/dados/dados_rotinas.json"
 data_loader = DataLoader(json_path)
 rotinas = data_loader.rotinas
 
