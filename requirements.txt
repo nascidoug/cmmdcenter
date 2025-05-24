@@ -7,3 +7,4 @@ unicodedata
 datetime 
 numpy
 plotly
+streamlit_autorefresh
