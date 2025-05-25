@@ -7,8 +7,8 @@ import os
 class DataProcessor:
     @staticmethod
     def process_rotinas(rotinas: pd.DataFrame):
-        # Define a raiz do projeto — 2 níveis acima se você estiver dentro de cmmd/pages/
-        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+        # Define a raiz do projeto — 2 níveis acima se você estiver dentro de cmmdcenter/
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__)))
         
         #Obtém a data do dia da execução, sem considerar horário
         hoje = pd.to_datetime("today").normalize()
