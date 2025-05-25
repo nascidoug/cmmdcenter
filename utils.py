@@ -98,4 +98,4 @@ class DataProcessor:
             intervalos_exibir.append(intervalo)
 
         rotinas["Intervalo (dias)"] = intervalos_exibir
-        return rotinas, base_dir, caminho_relativo, caminho_log
+        return rotinas
