@@ -6,6 +6,8 @@ import os
 
 class DataProcessor:
     @staticmethod
+    # Define a raiz do projeto — 2 níveis acima se você estiver dentro de `cmmd/pages/`
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
     def process_rotinas(rotinas: pd.DataFrame):
         #Obtém a data do dia da execução, sem considerar horário
         hoje = pd.to_datetime("today").normalize()
@@ -14,8 +16,10 @@ class DataProcessor:
         status_reais, datas_status, resultados, descricoes_erro, ultimo_end_times = [], [], [], [], []
 
         for _, row in rotinas.iterrows():
-            #Busca pelo arquivo Excel endereçado no Path do json, e define valores padrão
-            caminho_log = row.get("Path", "")
+            # Busca pelo caminho relativo salvo no JSON
+            caminho_relativo = row.get("Path", "")
+            # Garante o caminho absoluto baseado na raiz do projeto
+            caminho_log = os.path.join(base_dir, caminho_relativo)
             status, end_time, resultado, erro = "UNKNOWN", pd.NaT, None, ""
 
             if os.path.exists(caminho_log):
