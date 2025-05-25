@@ -7,7 +7,7 @@ import os
 class DataProcessor:
     @staticmethod
     def process_rotinas(rotinas: pd.DataFrame):
-        # Define a raiz do projeto — 2 níveis acima se você estiver dentro de cmmdcenter/
+        # Ajuste: base_dir = cmmdcenter/
         base_dir = os.path.abspath(os.path.dirname(__file__))
         
         #Obtém a data do dia da execução, sem considerar horário
@@ -17,10 +17,12 @@ class DataProcessor:
         status_reais, datas_status, resultados, descricoes_erro, ultimo_end_times = [], [], [], [], []
 
         for _, row in rotinas.iterrows():
-            # Busca pelo caminho relativo salvo no JSON
             caminho_relativo = row.get("Path", "")
-            # Garante o caminho absoluto baseado na raiz do projeto
             caminho_log = os.path.join(base_dir, caminho_relativo)
+            
+            # debug
+            print(f"Procurando arquivo em: {caminho_log}")
+            print(f"Existe? {os.path.exists(caminho_log)}")
             status, end_time, resultado, erro = "UNKNOWN", pd.NaT, None, ""
 
             if os.path.exists(caminho_log):
