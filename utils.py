@@ -19,10 +19,6 @@ class DataProcessor:
         for _, row in rotinas.iterrows():
             caminho_relativo = row.get("Path", "")
             caminho_log = os.path.join(base_dir, caminho_relativo)
-            
-            # debug
-            print(f"Procurando arquivo em: {caminho_log}")
-            print(f"Existe? {os.path.exists(caminho_log)}")
             status, end_time, resultado, erro = "UNKNOWN", pd.NaT, None, ""
 
             if os.path.exists(caminho_log):
