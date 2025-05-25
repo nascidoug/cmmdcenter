@@ -12,6 +12,8 @@ def remover_acentos(texto):
 
 def substituir_espacos_por_underscores(texto):
     return texto.replace(" ", "_")
+# Diretório atual onde o script está (por exemplo: cmmd/)
+current_dir = os.path.dirname(__file__)
 
 # Estilização
 st.markdown("""
@@ -46,7 +48,7 @@ if not st.session_state.cadastro_realizado:
 
     # Lógica de cadastro
     if submitted:
-        pasta_logs = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "dados\logs")
+        pasta_logs = os.path.normpath(os.path.join(current_dir, "..", "dados"))
         os.makedirs(pasta_logs, exist_ok=True)
 
         nome_arquivo = f"{substituir_espacos_por_underscores(remover_acentos(nome_rotina))}_log.xlsx"
@@ -75,7 +77,7 @@ if not st.session_state.cadastro_realizado:
             df_log.to_excel(path_arquivo, index=False, engine="openpyxl")
 
         # Atualiza JSON
-        json_file = r"/workspaces/cmmdcenter/dados/dados_rotinas.json"
+        json_file = os.path.normpath(os.path.join(current_dir, "..", "dados", "dados_rotinas.json"))
         if os.path.exists(json_file):
             try:
                 with open(json_file, "r") as file:
