@@ -6,7 +6,7 @@
         "Email Analista Responsavel": "camila.nogueira@bancox.com",
         "Coordenacao": "Analise PF",
         "Gerencia": "Analise de Credito",
-        "Path": "dados/logs/Validacao_Credito_PF_log.xlsx"
+        "Path": "/dados/logs/Validacao_Credito_PF_log.xlsx"
     },
     {
         "Nome da Rotina": "Aprovacao_Credito_PJ",
